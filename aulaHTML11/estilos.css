@@ -1,0 +1,102 @@
+/* Estilos das Páginas - Tabelas Simples e Copa2026 */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+header {
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav {
+    background-color: lightpink;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: block;
+    margin: 0;
+}
+
+header nav ul li a {
+    color: palevioletred;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: palevioletred;
+}
+
+main table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    border: 1px solid palevioletred;
+}
+
+main table th,
+main table td {
+    border: 1px solid palevioletred;
+    padding: 12px;
+    text-align: center;
+}
+
+main table th {
+    background-color: palevioletred;
+    color: white;
+}
+
+main table tr:nth-child(even) {
+    background-color: lavenderblush;
+}
+
+main table tr:hover {
+    background-color: lightpink;
+}
+
+main table img {
+    width: 50px;
+    height: 30px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+main table td img:hover {
+    width: 80px;
+    height: auto;
+}
+
+footer {
+    background-color: palevioletred;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+

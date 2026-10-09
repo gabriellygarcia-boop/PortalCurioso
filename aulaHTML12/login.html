@@ -1,0 +1,61 @@
+<!--
+Descrição: Aula 12 - Introdução aos Formulários Web
+Nome do arquivo: login.html
+Nome do exercício: Tela de Login com Formulário Web
+Nome do aluno: Gabrielly Nilvane Magalhães Garcia
+E-mail: gabrielly.garcia@portalsesisp.org.br
+Turma: TDE-1BAA-26
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+
+    <link rel="stylesheet" href="login.css">
+</head>
+      
+<body>
+
+    <main class="login-container">
+        <form id="loginForm">
+
+            <h1>Login</h1>
+            <label for="email">E-mail:</label>
+
+            <input
+               type="email"
+               id="email"
+               name="email"
+               placeholder="Digite seu E-mail"
+               >
+            
+            <label for="senha">Senha:</label> 
+
+            <input 
+            type="password" 
+            id="senha" 
+            name="senha" 
+            placeholder="Digite sua senha"
+            >
+
+            <button type="submit">Entrar</button>
+
+            <div class="links"> 
+                <a href="#">Criar uma conta</a> 
+                <a href="#">Esqueci minha senha</a>
+                </div>
+
+        <p id="mensagem"></p>
+
+        </form>
+    </main>
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>

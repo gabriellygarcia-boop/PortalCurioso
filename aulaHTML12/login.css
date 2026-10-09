@@ -1,0 +1,96 @@
+/*
+Descrição: Aula 12 - Introdução aos Formulários Web
+Nome do arquivo: login.css
+Nome do exercício: Tela de Login com Formulário Web
+Nome do aluno: Gabrielly Nilvane Magalhães Garcia
+E-mail: gabrielly.garcia@portalsesisp.org.br
+Turma: TDE-1BAA-26
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: palevioletred;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.login-container input:focus {
+    outline: none;
+    border-color: palevioletred;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    background-color: palevioletred;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #d85b8a;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.links a {
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+#mensagem {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
